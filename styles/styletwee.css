@@ -1,0 +1,529 @@
+/*--------------------General--------------------*/
+body {
+  font-family: arial, sans-serif;
+  margin: auto;
+  /* max-width: 1200px; */
+  /* background-image: url(../images/wallpaper.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-size: 1600px 900px;
+}
+
+section, article, p, h1, h2, h3, li {
+  color: #444444;
+}
+
+/* Background image bron: https://wallpapersafari.com/vegetable-gardening-wallpaper/ */
+nav a:visited {
+  color: #444444;
+}
+
+nav a:hover {
+  color: #7EB006;
+}
+
+nav a:link {
+  color: #444444;
+}
+
+div.body {
+  max-width: 1600px;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #C4E687;
+  margin-top: 100px;
+  font-size: 17px;
+  padding-bottom: 40px;
+}
+
+a.facebook {
+  padding-top: 60px;
+}
+
+img.logo {
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 150px;
+}
+
+div.slogan {
+  display: flex;
+}
+
+img.slogan {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 700px;
+  height: 120px;
+}
+
+div.menu {
+  display: flex;
+}
+
+p.regel {
+  background-color: #518C2A;
+  width: 200px;
+  margin-left: 100px;
+  padding: 2px;
+  /* height: 2px; */
+}
+
+div>ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+  padding-top: 25px;
+  /* margin-left: 140px; */
+  margin-top: 0px;
+}
+
+nav ul a, nav ul button {
+  max-width: 600px;
+  text-align: right;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+  padding-bottom: 0px;
+  border-right: 2px solid #C4E687
+}
+div.navigation {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+a.facebook {
+  margin-bottom: 60px;
+  border-right: 0px;
+}
+
+.contactdropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: #444444;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .contactdropdown:hover .dropbtn {
+  color: #7EB006;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 21px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #7EB006;
+}
+
+.contactdropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*--------------------Index.html--------------------*/
+img.foto1 {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  max-width: 100%;
+  max-height: 500px;
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  /* border-color: #999B6A; */
+}
+
+div.welkomtekst {
+  z-index: 1;
+  position: absolute;
+  /* bottom: 300px; */
+  margin-top: 90px;
+  margin-left: 115px;
+  width: 400px;
+}
+
+div.welkomtekst>h2 {
+  margin-bottom: 140px;
+  /* font-size: 30px; */
+  line-height: 35px;
+}
+
+div>h2>strong {
+  color: #FFFF66;
+  line-height: 50px;
+}
+
+div.blank {
+  /* position: absolute; */
+  /* bottom: 150px; */
+  /* margin-top: -500px; */
+  padding: 45px;
+  padding-top: 439px;
+  background-color: #C4E687;
+  width: 300px;
+  margin-left: 100px;
+  opacity: 70%;
+}
+
+a.contactformulier {
+  /* margin-top: 100px; */
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.5em;
+  font-size: 20px;
+  margin-left: 20px;
+  background-color: white;
+  color: #518C2A;
+  box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.51);
+}
+
+div.balk {
+  background-color: #518C2A;
+  padding: 20px;
+}
+
+section.welkom {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+span.indexfoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+img.edit {
+  margin-left: 100px;
+}
+
+span.indexfoto>img {
+  width: 500px;
+  height: 350px;
+}
+
+section.tuininfo {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding-bottom: 25px;
+  margin: 0px;
+  /* border-style: solid; */
+  /* border-width: 1px; */
+  /* border-color: #999B6A; */
+  font-size: 17px;
+}
+
+article.info {
+  margin-left: 235px;
+  margin-right: 120px;
+  width: 500px
+}
+
+div.balkdun {
+  display: flex;
+  background-color: #518C2A;
+  width: 1500px;
+  height: 3px;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* --------------------Contact.html-------------------- */
+main.contact {
+  /* background-color: #C4E687; */
+}
+
+section.form {
+  font-size: 17px;
+}
+
+div.form {
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+fieldset {
+  margin-left: 350px;
+  border-width: 0px;
+  /* background-color: #EAEAEA; */
+  width: 100px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #518C2A;
+  background: rgba(196, 230, 135, 0.7);
+  border-radius: 5px;
+}
+
+fieldset>section {
+  margin-left: 40px;
+}
+
+fieldset>section>div {
+  display: flex;
+  margin-top: 20px;
+}
+
+article.contacttitel {
+  margin-left: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+fieldset>section>h3 {
+  font-size: 25px;
+  width: 735px;
+  /* background-color: #518C2A; */
+  /* color: #518C2A; */
+  padding: 10px;
+}
+
+input, textarea {
+  font-size: 17px;
+  font-family: arial;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  /* border-width: 1px; */
+}
+
+fieldset>section>div>span {
+  margin-left: 10px;
+}
+
+input[type=submit] {
+  font-size: 20px;
+  color: white;
+  padding: 15px 30px;
+  background: #518C2A;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.51);
+}
+
+span.vragen {
+  margin-bottom: 20px;
+}
+
+span.twee {
+  margin-left: 40px;
+}
+label.container {
+display: block;
+position: relative;
+padding-left: 35px;
+margin-bottom: 12px;
+cursor: pointer;
+font-size: 22px;
+}
+
+label.container>input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+span.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.container input:checked ~ .checkbox {
+  background-color: #518C2A;
+}
+.container:hover input ~ .checkbox {
+  background-color: #ccc;
+}
+/* --------------------Foto.html-------------------- */
+span.fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+span>img {
+  margin: 18px;
+  width: 352px;
+  height: 300px;
+}
+
+h2.foto {
+  margin-left: 100px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  font-size: 30px;
+}
+
+/* --------------------Huren.html-------------------- */
+main.huren {
+  background-color: white;
+  font-size: 17px;
+}
+
+main.huren>h2 {
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+section.huren {
+  margin-left: 100px;
+}
+
+section.huren>p {
+  width: 800px;
+}
+
+article.kosten {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: -200px;
+  margin-bottom: 30px;
+  width: 350px;
+  padding: 10px;
+  background-color: #DCDCDC;
+  border-radius: 5px;
+  border-bottom-width: 40px;
+  border-bottom-style: solid;
+  border-color: #518C2A;
+  box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.51);
+}
+
+article.kosten>h3 {
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+
+article.kosten>ul>li>i {
+  font-size: 15px;
+  color: red;
+}
+
+article.kosten>h4 {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+article.kosten>ul {
+  margin-top: 0px;
+}
+
+hr.huren {
+  width: 800px;
+  margin: 30px;
+  margin-left: 0px;
+}
+
+/* --------------------Nieuws.html-------------------- */
+main.nieuws {
+  background-color: white;
+  /* border-width: 2px; */
+  /* border-style: solid; */
+  /* border-color: #999B6A; */
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 17px;
+  margin-left: 100px;
+  max-width: 1100px;
+}
+
+h1.nieuws {
+  font-size: 30px;
+  margin-left: 100px;
+  /* margin-bottom: 60px; */
+  margin-top: 20px;
+}
+
+article.oogstfeest {
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+img.nieuws {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  /* border-width: 2px; */
+  /* border-style: solid; */
+  /* border-color: #999B6A; */
+}
+
+.oogstfeest, .opendag {
+  margin-bottom: 50px;
+}
+
+.ruilbeurs, .opendag {
+  margin-top: 50px;
+}
+
+/*--------------------Verstuurd.html--------------------*/
+main.verstuurd {
+  background-color: white;
+  /* border-width: 2px; */
+  /* border-style: solid; */
+  /* border-color: #999B6A; */
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
+  font-size: 17px;
+  /* padding: 50px; */
+}
+
+main.verstuurd>h2 {
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+p.verstuurd {
+  margin-left: 100px;
+  margin-bottom: 380px;
+}
+/* Content bron: https://tuinvreugdevolendam.nl */
